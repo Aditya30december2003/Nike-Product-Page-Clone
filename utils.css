@@ -1,0 +1,226 @@
+.li1{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 37px 68px;
+    margin-right: 559px;
+    justify-content: space-evenly;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    justify-content: space-around;
+}
+
+.li1 li{
+    margin: 0px 25px;
+}
+
+.ver{
+    border-left: 6px solid rgb(0, 1, 0);
+    height: 500px;
+    float: left;
+    margin: 20px 20px;
+} 
+
+.li2{
+    display: flex;
+    justify-content:space-around;
+    list-style: none;
+    margin-right: 106px;
+    margin-top: 42px;
+} 
+
+.li2 li{
+    margin: 0px 25px;
+}
+
+.tile{
+    display: flex;
+    justify-content: space-around;
+}
+
+.tile:hover{
+    cursor: pointer;
+}
+
+.head{
+    display: flex;
+}
+/* .cont-right:hover{
+    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 3s;
+    transform: rotate(-30deg) ;
+} */
+
+.cont-left{
+    margin: 79px 100px;
+    margin-left: 30px;
+    font-size: 24px;
+    width: 450px;
+    margin-top: 15px;
+}
+
+.main{
+    display: grid;
+    grid-template-columns: 302px 512px 512px;
+}
+
+.ankle{
+    font-size: 15px;
+    margin: 10px 0px;
+}
+
+h1{
+    font-family:  'DM Sans', sans-serif;
+    font-size: 40px;
+    width: 300px;
+}
+h2{
+    font-family:  'DM Sans', sans-serif;
+    font-size: 20px;
+}
+h5{
+    font-family:  'DM Sans', sans-serif;
+    opacity: 0.5;
+    font-size: 18px;
+}
+
+p{
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 16px 1px;
+}
+.size p{
+    font-size: 18px;
+}
+.size-guide{
+    opacity: 0.5;
+}
+.size{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: -140px;
+}
+.size-button button{
+    border: 1px solid rgb(154, 154, 154);
+    width: 120px;
+    height: 40px;
+    font-size: 17px;
+    border-radius: 5px;
+}
+.size-button button:hover{
+    border: 1.5px solid black;
+}
+.size-button{
+    margin-left: -120px;
+    display: grid;
+    grid-template-columns: 122px 122px 122px;
+    grid-template-rows: 44px 44px 44px 44px ;
+}
+
+span{
+    margin: 3px 3px;
+}
+span:hover{
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.btn{
+    font-family: 'Josefin Sans', sans-serif;
+    border: 1px solid black;
+    margin: 40px 0px;
+    height: 70px;
+    width: 350px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border-radius: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+}
+.btn2{
+    font-family: 'Josefin Sans', sans-serif;
+    border: 1px solid black;
+    margin: 40px 0px;
+    height: 70px;
+    width: 350px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+    margin-top: -20px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.rate{
+    margin: -15px 162px;
+    font-size: 10px;
+}
+.plus{
+    float: right;
+}
+
+/* middle-cont */
+
+.cont-right{
+    display: grid;
+    grid-template-rows: 83px 83px 83px 83px 83px 83px 83px;
+    /* margin-left: 605px; */
+    margin-left: 50px;
+}
+.cont-right img{
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-top:22px;
+    cursor: pointer;
+}
+
+button{
+    border: none;
+    background-color: white;
+    margin-left: 100px;
+    cursor: pointer;
+    
+}
+.buttons button{
+    margin-left: 355px;
+}
+.buttons{
+    margin-top: -600px;
+    margin-left: 110px;
+}
+#prev{
+    margin-left: 50px;
+}
+#next{
+    margin-left: 560px ;
+}
+
+.cont-middle{
+    margin-left: -100px;
+    position: relative;
+    width:100%;
+    display: grid;
+    margin-top: 25px;
+    overflow: hidden;
+}
+.display{
+    position: absolute;
+    margin-left: 0px;
+    width: 100%;
+}
+
+.button:hover{
+    opacity: 0.7;
+}
+
